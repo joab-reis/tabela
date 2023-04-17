@@ -23,7 +23,7 @@ a {
     text-decoration: none;
     color: black;
 }
-li {
+li.nav {
     margin: 10px;
     border: 1px solid black;
     width: 100px;
@@ -56,10 +56,45 @@ div {
 section.prog1 {
     width: 700px;
     height: 900px;
-    background-color: rgba(0, 0, 0, 0.434);
+    background-color: rgba(0, 0, 0, 0.536);
+    margin: 20px;
+}
+
+section.prog1>h1,h2,h3 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 1.3em;
+}
+section.prog1>p {
+    margin-left: 25px;
+    padding: 10px;
+    color: white;
+    font-size: 1.3em;
+}
+ul.lista {
+    display: flex;
+    display: block;
+}
+ul.lista>h4 {
+    color: white;
+    padding-left: 25px;
 }
 section.prog2 {
+    margin: 20px;
     width: 700px;
     height: 900px;
     background-color: rgba(0, 0, 0, 0.427);
+}
+section.prog2>h1,h2,h3 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 1.3em;
+}
+section.prog2>p {
+    margin-left: 25px;
+    padding: 10px;
+    color: white;
+    font-size: 1.3em;
 }
