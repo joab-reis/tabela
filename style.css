@@ -14,11 +14,11 @@ html, body {
 h1 {
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 8px;
 }
 h2 {
     color: white;
-    padding: 10px;
+    padding: 8px;
     margin-left: 50px;
 }
 div#tabela {
@@ -33,13 +33,13 @@ table {
 }
 td, th {
     border: 1px solid black;
-    padding: 10px;
+    padding: 8px;
 }
 tr.hrs {
     background-color: gray;
     color: white;
     height: 10px;
-    font-size: 10px;
+    font-size: 15px;
 }
 tr.materia {
     background-color: rgb(181, 180, 180);
@@ -51,7 +51,7 @@ tr.semana {
 div#lista {
     max-width: 700px;
     height: 200px;
-    margin: 20px;
+    margin: 15px;
 }
 ul {
     list-style-type: "\2714\00A0\00A0";

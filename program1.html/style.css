@@ -11,7 +11,7 @@ header {
 }
 h1 {
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     color: aliceblue;
 }
 ul {
@@ -60,12 +60,7 @@ section.prog1 {
     margin: 20px;
 }
 
-section.prog1>h1,h2,h3 {
-    text-align: center;
-    color: white;
-    padding: 10px;
-    font-size: 1.3em;
-}
+
 section.prog1>p {
     margin-left: 25px;
     padding: 10px;
